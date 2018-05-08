@@ -1,5 +1,18 @@
-# ArcSlidingHelper
-Android弧形滑动辅助
+## 几行代码实现Android弧形滑动
+### 添加依赖：
+build.gradle:
+```
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://github.com/Ifxcyr/ArcSlidingHelper/raw/master" }
+    }
+}
+```
+app/build.gradle:
+```
+implementation 'com.wuyr:arcslidinghelper:1.0.0'
+```
 ### 简单使用示例：
 ```
         mView = findViewById(R.id.view);
