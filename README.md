@@ -50,4 +50,5 @@ implementation 'com.wuyr:arcslidinghelper:1.0.0'
 ### 效果：
 ![preview](https://github.com/wuyr/ArcSlidingHelper/raw/master/preview.gif) ![preview](https://github.com/wuyr/ArcSlidingHelper/raw/master/preview2.gif)
 ### 了解更多: https://github.com/Ifxcyr/ArcSlidingHelper
+### 博客详情：https://blog.csdn.net/u011387817/article/details/80313184
 ### 可定制性超强的圆弧滑动组件:https://github.com/Ifxcyr/FanLayout
