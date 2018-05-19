@@ -29,12 +29,14 @@ public class MainActivity extends AppCompatActivity {
                     angle -> mView.setRotation(mView.getRotation() + angle));
             //开启惯性滚动
             mArcSlidingHelper.enableInertialSliding(true);
-            getWindow().getDecorView().setOnTouchListener((v, event) -> {
-                //处理滑动事件
-                mArcSlidingHelper.handleMovement(event);
-                return true;
-            });
+
         });
+        getWindow().getDecorView().setOnTouchListener((v, event) -> {
+            //处理滑动事件
+            mArcSlidingHelper.handleMovement(event);
+            return true;
+        });
+
     }
 
     @Override
