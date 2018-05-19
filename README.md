@@ -36,5 +36,5 @@ implementation 'com.wuyr:arcslidinghelper:1.0.0'
         });
 ```
 ### 效果：
-![preview](https://img-blog.csdn.net/20180520035234277?/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEzODc4MTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)![preview](https://img-blog.csdn.net/20180520041746179?/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEzODc4MTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![preview](https://img-blog.csdn.net/20180520035234277?/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEzODc4MTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70) ![preview](https://img-blog.csdn.net/20180520041746179?/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEzODc4MTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 ### 了解更多: https://github.com/Ifxcyr/ArcSlidingHelper
