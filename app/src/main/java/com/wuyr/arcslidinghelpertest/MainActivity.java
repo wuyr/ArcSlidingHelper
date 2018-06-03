@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 import com.wuyr.ArcSlidingHelper;
 
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
                     angle -> mView.setRotation(mView.getRotation() + angle));
             //开启惯性滚动
             mArcSlidingHelper.enableInertialSliding(true);
-
+            mArcSlidingHelper.setOnSlideFinishListener(() -> Toast.makeText(
+                    MainActivity.this,"finished",Toast.LENGTH_SHORT).show());
         });
         getWindow().getDecorView().setOnTouchListener((v, event) -> {
             //处理滑动事件
