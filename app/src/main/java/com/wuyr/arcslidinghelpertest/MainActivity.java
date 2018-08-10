@@ -7,7 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.wuyr.ArcSlidingHelper;
+import com.wuyr.arcslidinghelper.ArcSlidingHelper;
+
 
 /**
  * Created by wuyr on 18-5-9 上午1:36.
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_main_view);
-
+        mArcSlidingHelper.release();
         mView = findViewById(R.id.view);
         mView.post(() -> {
             //创建对象
