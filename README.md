@@ -23,7 +23,7 @@ implementation 'com.wuyr:arcslidinghelper:1.0.0'
 |release()|释放资源|
 
 ### 简单使用示例：
-```
+```java
     private ArcSlidingHelper mArcSlidingHelper;
     private View mView;
 
